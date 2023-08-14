@@ -277,4 +277,7 @@ iframe {
 
         /* Bodegas Destacadas */
 
-      
+.bodegas_img{
+    height: 300px;
+}
+

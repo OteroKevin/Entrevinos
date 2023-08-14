@@ -170,7 +170,7 @@ iframe {
         grid-template-columns: repeat(4, 1fr);
         gap: 10px;
         margin-bottom: 10px;
-
+       
     }
 
     .vinosUno {
@@ -280,4 +280,13 @@ iframe {
 .bodegas_img{
     height: 300px;
 }
+
+.titulo_bodegas{
+    display: flex;
+    justify-content: center;
+    font-family: 'lora' serif;
+}
+
+
+
 

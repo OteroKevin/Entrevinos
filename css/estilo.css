@@ -9,20 +9,22 @@
 
 }
 
+body {
+    background-color: bisque;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
 
-header {
+.contenedor_header {
     margin-bottom: 10px;
     text-align: center;
 
-
-
-
 }
 
-nav {
-    background-color: rgba(0, 0, 0, 0.6);
+ nav {
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 1px 30px;
-
 
 }
 
@@ -55,14 +57,7 @@ li a {
 }
 
 
-body {
-    background-color: bisque;
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
-
-footer {
+.conteiner_footer {
     display: flex;
     width: 100%;
     position: relative;
@@ -100,7 +95,7 @@ footer {
 }
 
 .imgCarrousel {
-    height: 800px;
+    height: 600px;
 
 }
 
@@ -164,7 +159,7 @@ span {
 
 }
 
-section {
+.conteiner_section {
     display: flex;
     justify-content: center;
     color: black;
@@ -201,10 +196,6 @@ label {
 
 /*VINOS HTML*/
 
-.row {
-    margin-left: 10px;
-
-}
 
 .tituloVinos {
     display: flex;
@@ -250,7 +241,7 @@ label {
     }
 
     .row {
-        margin-left: 20px;
+    margin-left: 0;
 
     }
 
@@ -311,7 +302,7 @@ iframe {
     }
 
     iframe {
-        width: 400px;
+        width: 350px;
         height: 300px;
     }
 }

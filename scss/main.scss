@@ -1,0 +1,19 @@
+.mainSucursal {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 10px;
+	.local_ubicacion {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		font-family: $tipotexto;
+		font-size: 20px;
+	}
+	iframe {
+		width: 600px;
+		height: 400px;
+		margin-left: 10px;
+	}
+}
+
+

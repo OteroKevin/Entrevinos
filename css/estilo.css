@@ -1,338 +1,269 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:ital@1&display=swap');
-
-/* Index */
-
-* {
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:ital@1&display=swap");
+@media (max-width: 1200px) {
+  .mainSucursal {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .local_ubicacion {
+    border: 1px solid rgb(0, 0, 0);
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+  }
+  iframe {
+    width: 350px;
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
+  }
+  .row {
+    margin-left: 0;
+  }
+  .logo {
+    width: 300px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: bisque;
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
-
-.contenedor_header {
-    margin-bottom: 10px;
-    text-align: center;
-
-}
-
- nav {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 1px 30px;
-
-}
-
-.nav-link {
-    color: white;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-}
-
-
-li {
-    display: inline-block;
-    margin: 0 10px;
-
-}
-
-
-li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: whitesmoke;
-    top: 100%;
-    left: 100%;
-
-}
-
-
-.container_footer {
-    display: flex;
-    width: 100%;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    padding: 2rem 8%;
-    background-color: rgba(0, 0, 0, 0.8);
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
-
-}
-
-
-.logoFooter {
-    height: 70px;
-    width: 80px;
-    margin-bottom: 1rem;
-}
-
-.social-icon {
-
-    height: 40px;
-    width: 40px;
-    color: white;
-    margin-bottom: 10px;
-
-}
-
-.redes_titulo {
-    color: white;
-    font-family: 'Lora', serif;
-
-}
-
-.imgCarrousel {
-    height: 600px;
-
-}
-
-span {
-    color: white;
-
-}
-
-/* Contacto */
-
-.campos {
-    background-color: ghostwhite;
-    border-radius: 5px;
-    font-size: 20px;
-    color: #555;
-    border: none;
-    outline: none;
-    width: 500px;
-}
-
-.botones {
-    padding: 5px 15px;
-    color: white;
-    background-color: #900C3F;
-    border: 0 none;
-    cursor: pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-}
-
-.botones {
-    transition: .5s, color .10s;
-    -webkit-transition: .5s, color .10s;
-    -moz-transition: .5s, color .10s;
-}
-
-.botones:hover {
-    box-shadow: 0 8px 8px 0 #000000, 0 6px 6px 0 #000000;
-    transform: translate(0px, 5px);
-    -webkit-transform: translate(0px, 5px);
-    -moz-transform: translate(0px, 5px);
-}
-
-
-
-.campos_texto {
-    background-color: ghostwhite;
-    border-radius: 5px;
-    font-size: 20px;
-    color: #555;
-    border: none;
-    outline: none;
-    width: 500px;
-    height: 200px;
-
-}
-
-.formulario_contenedor {
-    color: whitesmoke;
-    font-family: 'Lora', serif;
-
+  background-color: bisque;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
 .container_section {
-    display: flex;
-    justify-content: center;
-    color: black;
-    font-family: 'Lora', serif;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: "Lora", serif;
+}
+.container_section .formulario_contenedor {
+  color: whitesmoke;
+  font-family: "Lora", serif;
+}
+.container_section .campos {
+  background-color: ghostwhite;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #555;
+  border: none;
+  outline: none;
+  width: 500px;
+}
+.container_section .campos_texto {
+  background-color: ghostwhite;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #555;
+  border: none;
+  outline: none;
+  width: 500px;
+  height: 200px;
+}
+.container_section .botones {
+  padding: 5px 15px;
+  color: white;
+  background-color: #900C3F;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.container_section .botones:hover {
+  box-shadow: 0 8px 8px 0 #000000, 0 6px 6px 0 #000000;
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  -moz-transform: translate(0px, 5px);
+}
+.container_section label {
+  align-items: center;
+  display: block;
+  margin-bottom: 5px;
+  font-family: "Lora", serif;
+  color: black;
 }
 
-label {
-    align-items: center;
-    display: block;
-    margin-bottom: 5px;
-    font-family: 'Lora', serif;
-    color: black;
+header {
+  margin-bottom: 10px;
+  text-align: center;
+}
+header nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1px 30px;
+}
+header .nav-link {
+  color: white;
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+header li {
+  display: inline-block;
+  margin: 0 10px;
+}
+header li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: whitesmoke;
+  top: 100%;
+  left: 100%;
+}
 
+footer {
+  display: flex;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 8%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+footer .logoFooter {
+  height: 70px;
+  width: 80px;
+  margin-bottom: 1rem;
+}
+footer .social-icon {
+  height: 40px;
+  width: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+footer .redes_titulo {
+  color: white;
+  font-family: "Lora", serif;
+}
+footer span {
+  color: white;
+}
+
+.row {
+  margin-left: 0;
+}
+.row .tituloVinos {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Lora", serif;
+}
+.row .tarjetas_vinos .boton_vinos {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: #900C3F;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.row .tarjetas_vinos .boton_vinos:hover {
+  transform: translatey(-20px);
+  -webkit-transform: translatey(-20px);
+  -moz-transform: translatey(-20px);
+}
+
+.mainSucursal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+}
+.mainSucursal .local_ubicacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Lora", serif;
+  font-size: 20px;
+}
+.mainSucursal iframe {
+  width: 600px;
+  height: 400px;
+  margin-left: 10px;
+}
+
+.tituloVinos {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: "Lora", serif;
 }
 
 .titulo_contacto {
-    display: flex;
-    justify-content: center;
-    color: black;
-    font-family: 'Lora', serif;
-}
-
-@media (max-width:530px) {
-    .campos {
-        width: 400px;
-    }
-
-    .campos_texto {
-        width: 400px;
-    }
-}
-
-
-
-/*VINOS HTML*/
-
-
-.tituloVinos {
-    display: flex;
-    justify-content: center;
-    color: black;
-    font-family: 'Lora', serif;
-}
-
-.row{
-    margin-left: 0;
-}
-
-.boton_vinos {
-    display: inline-block;
-    padding: 5px 5px;
-    background-color: #900C3F;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-}
-
-
-.boton_vinos {
-    transition: .5s, color .10s;
-    -webkit-transition: .5s, color .10s;
-    -moz-transition: .5s, color .10s;
-}
-
-.boton_vinos:hover {
-    transform: translatey(-20px);
-    -webkit-transform: translatey(-20px);
-    -moz-transform: translatey(-20px);
-}
-
-
-@media (max-width: 500px) {
-
-    .body {
-        margin: 0;
-        padding: 0;
-    }
-
-    .row {
-    margin-left: 0;
-
-    }
-
-    .logo {
-        width: 300px;
-    }
-
-}
-
-/*Sucursal html*/
-
-iframe {
-    width: 600px;
-    height: 400px;
-    margin-left: 10px;
-}
-
-.nuestraSucursal {
-    display: flex;
-    justify-content: center;
-    font-family: 'Lora', serif;
-    color: black;
-}
-
-
-
-.mainSucursal {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 10px;
-
-}
-
-
-.local_ubicacion {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Lora', serif;
-    font-size: 20px;
-
-}
-
-
-@media (max-width:1230px) {
-    .mainSucursal {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-
-    }
-
-    .local_ubicacion {
-        border: 1px solid rgb(0, 0, 0);
-        border-left: none;
-        border-right: none;
-        padding: 10px;
-    }
-
-    iframe {
-        width: 350px;
-        height: 300px;
-    }
-}
-
-/* Bodegas Destacadas */
-
-
-
-.bodegas_img {
-    height: 300px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: "Lora", serif;
 }
 
 .titulo_bodegas {
-    display: flex;
-    justify-content: center;
-    font-family: 'Lora', serif;
+  display: flex;
+  justify-content: center;
+  font-family: "Lora", serif;
 }
 
+.titulo_contacto {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: "Lora", serif;
+}
+
+.nuestraSucursal {
+  display: flex;
+  justify-content: center;
+  font-family: "Lora", serif;
+  color: black;
+}
+
+.titulo_contacto {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: "Lora", serif;
+}
 
 .contenedor_bodegas {
-    margin: 10px;
-    padding: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.contenedor_bodegas .bodegas_img {
+  height: 300px;
+}
+.contenedor_bodegas .titulo_bodegas {
+  display: flex;
+  justify-content: center;
+  font-family: "Lora", serif;
+}
+.contenedor_bodegas .card_bodegas:hover {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
 }
 
-.card_bodegas:hover {
-    background-color: rgb(62, 62, 62);
-    color: white;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
-}
+/*# sourceMappingURL=estilo.css.map */

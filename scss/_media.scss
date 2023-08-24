@@ -1,0 +1,40 @@
+@media (max-width:1200px) {
+    .mainSucursal {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+
+    }
+
+    .local_ubicacion {
+        border: 1px solid rgb(0, 0, 0);
+        border-left: none;
+        border-right: none;
+        padding: 10px;
+    }
+
+    iframe {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .row {
+    margin-left: 0;
+
+    }
+
+    .logo {
+        width: 300px;
+    }
+
+}
+
+

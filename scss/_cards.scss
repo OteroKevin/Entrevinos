@@ -1,0 +1,31 @@
+.row {
+	margin-left: 0;
+	.tituloVinos {
+		display: flex;
+		justify-content: center;
+		color: white;
+		font-family: 'Lora', serif;
+	}
+	.tarjetas_vinos {
+		.boton_vinos {
+			display: inline-block;
+			padding: 5px 5px;
+			background-color: #900C3F;
+			color: #fff;
+			font-size: 1rem;
+			font-weight: bold;
+			text-transform: uppercase;
+			cursor: pointer;
+			border: none;
+			border-radius: 5px;
+			transition: .5s, color .10s;
+			-webkit-transition: .5s, color .10s;
+			-moz-transition: .5s, color .10s;
+			&:hover {
+				transform: translatey(-20px);
+				-webkit-transform: translatey(-20px);
+				-moz-transform: translatey(-20px);
+			}
+		}
+	}
+}

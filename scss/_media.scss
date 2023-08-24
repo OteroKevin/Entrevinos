@@ -1,4 +1,4 @@
-@media (max-width:1200px) {
+@media (max-width:880px) {
     .mainSucursal {
         display: grid;
         grid-template-columns: 1fr;
@@ -14,7 +14,7 @@
     }
 
     iframe {
-        width: 350px;
+        width: 300px;
         height: 300px;
     }
 }

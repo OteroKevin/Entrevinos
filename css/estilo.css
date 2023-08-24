@@ -253,4 +253,13 @@ h1 {
   transition: all 1s ease;
 }
 
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: whitesmoke;
+  top: 100%;
+  left: 100%;
+}
+
 /*# sourceMappingURL=estilo.css.map */

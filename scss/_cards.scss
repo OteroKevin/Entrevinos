@@ -1,11 +1,13 @@
 .row {
 	margin-left: 0;
+
 	.tituloVinos {
 		display: flex;
 		justify-content: center;
 		color: white;
-		font-family: 'Lora', serif;
+		font-family: $tipotexto;
 	}
+
 	.tarjetas_vinos {
 		.boton_vinos {
 			display: inline-block;
@@ -21,6 +23,7 @@
 			transition: .5s, color .10s;
 			-webkit-transition: .5s, color .10s;
 			-moz-transition: .5s, color .10s;
+
 			&:hover {
 				transform: translatey(-20px);
 				-webkit-transform: translatey(-20px);

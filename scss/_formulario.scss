@@ -1,55 +1,63 @@
 .container_section {
-	display: flex;
-	justify-content: center;
-	color: black;
-	font-family: $tipotexto;
-	.formulario_contenedor {
-		color: whitesmoke;
-		font-family: $tipotexto;
-	}
-	.campos {
-		background-color: ghostwhite;
-		border-radius: 5px;
-		font-size: 20px;
-		color: #555;
-		border: none;
-		outline: none;
-		width: 500px;
-	}
-	.campos_texto {
-		background-color: ghostwhite;
-		border-radius: 5px;
-		font-size: 20px;
-		color: #555;
-		border: none;
-		outline: none;
-		width: 500px;
-		height: 200px;
-	}
-	.botones {
-		padding: 5px 15px;
-		color: white;
-		background-color: #900C3F;
-		border: 0 none;
-		cursor: pointer;
-		-webkit-border-radius: 5px;
-		border-radius: 5px;
-		transition: .5s, color .10s;
-		-webkit-transition: .5s, color .10s;
-		-moz-transition: .5s, color .10s;
-		&:hover {
-			box-shadow: 0 8px 8px 0 #000000, 0 6px 6px 0 #000000;
-			transform: translate(0px, 5px);
-			-webkit-transform: translate(0px, 5px);
-			-moz-transform: translate(0px, 5px);
-		}
-	}
-	label {
-		align-items: center;
-		display: block;
-		margin-bottom: 5px;
-		font-family: $tipotexto;
-		color: black;
-	}
-}
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: $tipotexto;
 
+    .formulario_contenedor {
+        color: whitesmoke;
+        font-family: $tipotexto;
+    }
+
+    .campos {
+        background-color: ghostwhite;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #555;
+        border: none;
+        outline: none;
+        width: 500px;
+    }
+
+    .campos_texto {
+        background-color: ghostwhite;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #555;
+        border: none;
+        outline: none;
+        width: 500px;
+        height: 200px;
+    }
+
+    .botones {
+        padding: 5px 15px;
+        color: white;
+        background-color: #900C3F;
+        border: 0 none;
+        cursor: pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+
+        &:hover {
+            box-shadow: 0 8px 8px 0 #000000, 0 6px 6px 0 #000000;
+            transform: translate(0px, 5px);
+            -webkit-transform: translate(0px, 5px);
+            -moz-transform: translate(0px, 5px);
+        }
+    }
+
+    label {
+        align-items: center;
+        display: block;
+        margin-bottom: 5px;
+        font-family: $tipotexto;
+        color: black;
+        animation-name: text;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+}

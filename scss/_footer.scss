@@ -10,22 +10,26 @@ footer {
 	align-items: center;
 	flex-direction: column;
 	margin-top: 20px;
+
 	.logoFooter {
 		height: 70px;
 		width: 80px;
 		margin-bottom: 1rem;
 	}
+
 	.social-icon {
 		height: 40px;
 		width: 40px;
 		color: white;
 		margin-bottom: 10px;
 	}
+
 	.redes_titulo {
 		color: white;
 		font-family: $tipotexto;
 	}
-	span{
+
+	span {
 		color: white;
 	}
 }

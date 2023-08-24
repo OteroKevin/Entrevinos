@@ -41,6 +41,18 @@ body {
   position: relative;
 }
 
+.imgCarrousel {
+  height: 600px;
+}
+
+@keyframes text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
 .container_section {
   display: flex;
   justify-content: center;
@@ -94,6 +106,9 @@ body {
   margin-bottom: 5px;
   font-family: "Lora", serif;
   color: black;
+  animation-name: text;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 header {
@@ -205,45 +220,17 @@ footer span {
   margin-left: 10px;
 }
 
-.tituloVinos {
+h1 {
   display: flex;
   justify-content: center;
   color: black;
   font-family: "Lora", serif;
-}
-
-.titulo_contacto {
-  display: flex;
-  justify-content: center;
-  color: black;
-  font-family: "Lora", serif;
-}
-
-.titulo_bodegas {
-  display: flex;
-  justify-content: center;
-  font-family: "Lora", serif;
-}
-
-.titulo_contacto {
-  display: flex;
-  justify-content: center;
-  color: black;
-  font-family: "Lora", serif;
-}
-
-.nuestraSucursal {
-  display: flex;
-  justify-content: center;
-  font-family: "Lora", serif;
-  color: black;
-}
-
-.titulo_contacto {
-  display: flex;
-  justify-content: center;
-  color: black;
-  font-family: "Lora", serif;
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: text;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .contenedor_bodegas {

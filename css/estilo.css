@@ -186,7 +186,7 @@ footer span {
   font-size: 20px;
 }
 .mainSucursal iframe {
-  width: 600px;
+  width: 400px;
   height: 400px;
   margin-left: 10px;
 }
@@ -233,11 +233,11 @@ a {
   left: 100%;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 1250px) {
   .mainSucursal {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 5px;
   }
   .local_ubicacion {
     border: 1px solid rgb(0, 0, 0);
@@ -246,8 +246,8 @@ a {
     padding: 10px;
   }
   iframe {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 }
 @media (max-width: 500px) {
